@@ -1,0 +1,16 @@
+{
+  "name": "Telegraph-Image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pages:dev": "wrangler pages dev ./ --kv=img_url --proxy 8080 --binding BASIC_USER=admin --binding BASIC_PASS=123 --persist-to ./data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "^3.21.0"
+  }
+}
